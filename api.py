@@ -83,8 +83,4 @@ def get_wallet(pair, api_key, api_secret_key):
     return (pair_name[0], pair_wallet)
 
 
-def get_pairs():
-    url = "https://api.exmo.com/v1.1/pair_settings"
-
-
 
